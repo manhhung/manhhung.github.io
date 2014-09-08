@@ -1,0 +1,20 @@
+---
+layout: default
+---
+<div class="content{% if page.photo_url %} photo-post{% endif %}">
+  <div class="post single">
+    {% unless page.photo_url %}
+    <h1>{{ page.title }}</h1>
+    <info datetime="{{ page.date | date: "%d/%m/%Y" }}">
+      {{ page.date | date: "%d/%m/%Y" }}
+    </info>
+    {% endunless %}
+    <div class="body">{{ content }}</div>
+    <!-- <div class="breaker"></div> -->
+    <div class="breaker"></div>
+    <!-- <info class="after">
+<div class="fb-like" data-href="http://xn--vitoss-jk8b.vn{{ page.url }}" data-send="false" data-width="550" data-show-faces="false" data-font="arial"></div>
+    </info> -->
+  </div>
+</div>
+{% include autoreload-in-debug.html %}

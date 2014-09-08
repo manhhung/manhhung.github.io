@@ -1,0 +1,8 @@
+port: 3000
+pygments: false
+lsi: false
+permalink: /:title/
+# paginate: 50
+markdown: rdiscount
+rdiscount:
+  extensions: [smart]
