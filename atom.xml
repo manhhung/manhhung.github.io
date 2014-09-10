@@ -3,25 +3,25 @@ layout: nil
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>vietoss</title>
-  <link href="http://xn--vitoss-jk8b.vn/atom.xml" rel="self"/>
-  <link href="http://xn--vitoss-jk8b.vn/"/>
+  <title>manhhung</title>
+  <link href="http://manhhung.cf/atom.xml" rel="self"/>
+  <link href="http://manhhung.cf/"/>
   <updated>{{ site.time | date_to_xmlschema }}</updated>
-  <id>http://xn--vitoss-jk8b.vn/</id>
+  <id>http://manhhung.cf/</id>
   <author>
-    <name>vietoss</name>
-    <email>vietoss@yahoo.com</email>
+    <name>manhhung</name>
+    <email>manhhung@yahoo.com</email>
   </author>
   {% for post in site.posts limit:10 %}
   <entry>
     <title>{{ post.title }}</title>
-    <link href="http://xn--vitoss-jk8b.vn{{ post.url }}"/>
+    <link href="http://manhhung.cf{{ post.url }}"/>
     <updated>{{ post.date | date_to_xmlschema }}</updated>
-    <id>http://xn--vitoss-jk8b.vn{{ post.id }}</id>
+    <id>http://manhhung.cf{{ post.id }}</id>
     <content type="html">{{ post.content | xml_escape }}</content>
     <author>
-      <name>vietoss</name>
-      <uri>http://xn--vitoss-jk8b.vn/about/</uri>
+      <name>manhhung</name>
+      <uri>http://manhhung.cf/about/</uri>
     </author>
   </entry>
   {% endfor %}

@@ -2,7 +2,7 @@
 <html lang="en" prefix="og: http://ogp.me/ns#">
   <head>
     <meta charset="utf-8">
-    <title>{% if page.title %}{{ page.title }} &mdash; {% endif %}vietoss</title>
+    <title>{% if page.title %}{{ page.title }} &mdash; {% endif %}manhhung</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     {% if page.title != "Lưu trữ (sidebar)" %}
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,7 +10,7 @@
     <link href='http://fonts.googleapis.com/css?family=Poly:400,400italic' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" media="screen, projection" href="/res/screen.css" type="text/css">
     <link rel="stylesheet" media="print" href="/res/print.css" type="text/css">
-    <link rel="alternate" type="application/atom+xml" title="vietoss" href="http://feeds.feedburner.com/vietoss">
+    <link rel="alternate" type="application/atom+xml" title="manhhung" href="http://feeds.feedburner.com/manhhung">
     <link rel="shortcut icon" href="/favicon.ico">
     <link rel="apple-touch-icon-precomposed" href="/res/apple-touch-icon-57x57-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/res/apple-touch-icon-{% if page.ios_app_name %}{{page.ios_app_name}}-{% endif %}72x72-precomposed.png">
@@ -31,7 +31,7 @@
       <meta name="og:description" content="{{ content | strip_html | truncatewords: 25 }}">
       {% endif %}
     {% else %}
-      <meta name="description" content="việtoss, vietoss">
+      <meta name="description" content="việtoss, manhhung">
     {% endif %}
     {% if page.og_image_url %}
     <meta property="og:image" content="{{ page.og_image_url }}">
@@ -40,8 +40,8 @@
     <meta property="og:image" content="{{ page.photo_url }}">
     {% endif %}
     {% endif %}
-    <meta property="og:url" content="http://xn--vitoss-jk8b.vn{{ page.url | remove_first:'index.html' }}">
-    <meta property="og:site_name" content="xn--vitoss-jk8b.vn">
+    <meta property="og:url" content="http://manhhung.cf{{ page.url | remove_first:'index.html' }}">
+    <meta property="og:site_name" content="manhhung.cf">
     <meta property="og:type" content="article">
     <meta property="og:locale" content="vi_VN" />
     {% if page.date %}
@@ -78,14 +78,7 @@
     </div>
     {% endif %}
     
-    {% unless page.no_footer %}
-    <footer>
-      <p>
-        Trang web sử dụng tên miền <a href="http://tenmientiengviet.vn">tiếng Việt</a>, lưu trữ tại <a href="http://github.com/vietoss">GitHub</a>, sử dụng mẫu tại <a href="http://rsms.me">rsms.me</a>
-      </p>
-    </footer>
-    {% endunless %}
-      
+     
     {% include prettify.html %}
   </body>
 </html>
