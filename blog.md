@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /blog/
 ---
 <!-- <div class="content full-bleed intro">
   Chào mừng!
