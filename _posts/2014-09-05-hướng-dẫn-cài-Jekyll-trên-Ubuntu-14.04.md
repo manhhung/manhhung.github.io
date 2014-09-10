@@ -31,6 +31,3 @@ sudo apt-get install nodejs
 {% endhighlight %}
 
 Đường dẫn mặc định của trang web là http://0.0.0.0:4000
-
-
-_Tham khảo:_ http://michaelchelen.net/81fa/install-jekyll-2-ubuntu-14-04/
