@@ -12,4 +12,3 @@ Liên hệ với tôi theo địa chỉ [vo@manhhung.cf](mailto:vo@manhhung.cf).
 
 - [Mail](http://mail.google.com/a/manhhung.cf)
 - [Facebook](http://fb.com/bena0310)
-- [Blog](/blog)
