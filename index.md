@@ -2,8 +2,10 @@
 layout: page
 title: Mạnh Hùng
 ---
-### Xin chào!
+
 <img src="/ava2.jpg" align="right" width="150px">
+
+### Xin chào!
 Đây là trang web của Mạnh Hùng.
 
 Liên hệ với tôi theo địa chỉ [vo@manhhung.cf](mailto:vo@manhhung.cf).
